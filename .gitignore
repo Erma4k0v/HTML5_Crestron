@@ -1,1 +1,16 @@
 contracts/output/
+ 
+# HTML5
+node_modules/
+dist/
+ 
+# SIMPL Windows
+SPlsWork/
+*.ASV
+*.chd?
+*.lpz
+*.hash
+*.sig
+*.sm2
+*.smft
+*.zip
