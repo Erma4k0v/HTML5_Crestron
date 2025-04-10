@@ -1,0 +1,118 @@
+{
+	"Errors": [],
+	"id": "_k407djhtl",
+	"name": "General",
+	"description": "General room",
+	"company": "En Trade",
+	"client": "",
+	"author": "Lev",
+	"version": "1.0.0.0",
+	"schemaVersion": 1,
+	"subContractLinks": [],
+	"subContracts": [],
+	"specifications": [
+		{
+			"Errors": [],
+			"parentId": "_k407djhtl",
+			"id": "_dyry5uvyn",
+			"componentId": "_jyoqky069",
+			"instanceName": "Room",
+			"numberOfInstances": 1
+		}
+	],
+	"components": [
+		{
+			"Errors": [],
+			"parentId": "_k407djhtl",
+			"id": "_jyoqky069",
+			"name": "Room",
+			"description": "Room properties",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "Power_On_Fb",
+					"siblingId": "_ry7queiwo",
+					"dataType": 1,
+					"notes": "",
+					"id": "_dy7c0bgzl",
+					"parentId": "_jyoqky069",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "Power_Off_Fb",
+					"siblingId": "_1texclqxi",
+					"dataType": 1,
+					"notes": "",
+					"id": "_u9nj3nr0r",
+					"parentId": "_jyoqky069",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "Mode_Fb",
+					"siblingId": "_1ukh4y7kp",
+					"dataType": 2,
+					"notes": "",
+					"id": "_5qjyil825",
+					"parentId": "_jyoqky069",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "Name_Fb",
+					"siblingId": "_n2u10w4an",
+					"dataType": 3,
+					"notes": "",
+					"id": "_gatimzki4",
+					"parentId": "_jyoqky069",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "Power_On",
+					"siblingId": "_dy7c0bgzl",
+					"dataType": 1,
+					"notes": "",
+					"id": "_ry7queiwo",
+					"parentId": "_jyoqky069",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "Power_Off",
+					"siblingId": "_u9nj3nr0r",
+					"dataType": 1,
+					"notes": "",
+					"id": "_1texclqxi",
+					"parentId": "_jyoqky069",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "Mode",
+					"siblingId": "_5qjyil825",
+					"dataType": 2,
+					"notes": "",
+					"id": "_1ukh4y7kp",
+					"parentId": "_jyoqky069",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_gatimzki4",
+					"dataType": 0,
+					"notes": "",
+					"id": "_n2u10w4an",
+					"parentId": "_jyoqky069",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		}
+	],
+	"allComponentsForAllContracts": []
+}
